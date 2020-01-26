@@ -44,7 +44,9 @@ export default function AnnotationPopover( {
 	const createAnnotation = ( text, annotationValue ) =>
 		`<ruby>${ text }<rt>${ annotationValue }</rt></ruby>`;
 
-	const updateAnnotation = () => {
+	const updateAnnotation = ( event ) => {
+		event.preventDefault();
+
 		const text = getTextContent( slice( value ) );
 
 		if ( ! text || ! annotation ) {
@@ -75,7 +77,7 @@ export default function AnnotationPopover( {
 			} }
 			onFocus={ onFocus }
 		>
-			<div className="sortabrilliant-rubi">
+			<form className="sortabrilliant-rubi" onSubmit={ updateAnnotation }>
 				<input
 					type="text"
 					value={ annotation }
@@ -87,9 +89,9 @@ export default function AnnotationPopover( {
 				<IconButton
 					icon="editor-break"
 					label={ __( 'Apply', 'rubi' ) }
-					onClick={ updateAnnotation }
+					type="submit"
 				/>
-			</div>
+			</form>
 		</PopoverAtRubyElement>
 	);
 }
