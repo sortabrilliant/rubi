@@ -33,6 +33,8 @@ function sortabrilliant_rubi_block_init() {
 		$script_asset['version']
 	);
 
+	wp_set_script_translations( 'sortabrilliant-rubi-block-editor', 'rubi', plugin_dir_path( __FILE__ ) . 'languages' );
+
 	$editor_css = 'editor.css';
 	wp_register_style(
 		'sortabrilliant-rubi-block-editor',
