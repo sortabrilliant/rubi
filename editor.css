@@ -1,0 +1,24 @@
+.sortabrilliant-rubi {
+	display: flex;
+}
+
+.components-popover .sortabrilliant-rubi input {
+	flex-grow: 1;
+	border-radius: 0;
+}
+
+.sortabrilliant-rubi input:not(:hover):not(:focus) {
+	border-color: transparent;
+}
+
+.sortabrilliant-rubi button {
+	padding: 3px;
+	border-radius: 0;
+}
+
+.sortabrilliant-rubi button svg {
+	padding: 5px;
+	border-radius: 0;
+	height: 30px;
+	width: 30px;
+}
