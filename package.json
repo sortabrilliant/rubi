@@ -12,7 +12,6 @@
 		"start": "wp-scripts start"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^6.2.0",
-		"wp-prettier": "git+https://github.com/Automattic/wp-prettier.git#wp-prettier-1.18.2"
+		"@wordpress/scripts": "^6.2.0"
 	}
 }
