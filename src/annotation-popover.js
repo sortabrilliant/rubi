@@ -42,7 +42,7 @@ export default function AnnotationPopover( {
 	const [ annotation, setAnnotation ] = useState( '' );
 
 	const createAnnotation = ( text, annotationValue ) =>
-		`<ruby>${ text }<rt>${ annotationValue }</rt></ruby>`;
+		`<ruby><rb>${ text }</rb><rt>${ annotationValue }</rt></ruby> `;
 
 	const updateAnnotation = ( event ) => {
 		event.preventDefault();
