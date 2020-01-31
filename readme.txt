@@ -1,6 +1,6 @@
 === Rubi ===
 Contributors: sortabrilliant, danielpost
-Tags: japanese, chinese, korean, ruby, ruby characters. 
+Tags: japanese, chinese, korean, ruby, ruby characters 
 Requires at least: 5.0
 Tested up to: 5.3.2
 Requires PHP: 5.6
