@@ -17,4 +17,4 @@ Ruby may be used for different reasons:
 #### How does it work?
 Adding ruby characters couldn't be easier. Just select your text. Click on the "Add Ruby Characters" button. Type your ruby characters and you're all done. 
 
-![Animated GIF of Rubi plugin adding annotation to sample text](https://user-images.githubusercontent.com/1713699/73140283-8aab7600-4077-11ea-8c0a-9bf399448555.gif)
+![Animated GIF of Rubi plugin adding annotation to sample text](https://ps.w.org/rubi-characters/assets/screenshot-1.gif?rev=2238030)
