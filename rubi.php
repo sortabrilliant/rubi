@@ -2,7 +2,7 @@
 /**
  * Plugin Name:     Rubi
  * Description:     The easiest way to add Ruby characters to your site.
- * Version:         1.0.0
+ * Version:         1.0.1
  * Author:          sorta brilliant
  * Author URI:      https://sortabrilliant.com/
  * License:         GPL-2.0-or-later
